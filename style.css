@@ -1,0 +1,78 @@
+*{
+    margin: 0px;
+    
+}
+
+body{
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.topDiv{
+    display: flex;
+    /* border: 1px solid red; */
+    margin-bottom: 3vmin;
+    flex-direction: column;
+    text-align: center;
+    width: 70vmin;
+    height: 7vmin;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.topDiv p{
+    font-size: 2vmin;
+}
+
+.gameOptions{
+    margin-top: 2vmin;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.gameOptions input[type="number"]{
+    width: 4vmin;
+}
+
+.gameOptions div{
+    display: flex;
+    align-items: center;
+}
+
+.gameOptions div p{
+    font-size: 1.7vmin;
+}
+
+.board{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: .8vmin;
+    width: 70vmin;
+}
+
+.tile{
+    height: 5vmin;
+    width: 5vmin;
+    background-color: lime;
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.apple{
+    background-color: blue;
+    color: white;
+}
+
+
+#score{
+    margin-left: 4vmin;
+    color: red;
+}
